@@ -16,7 +16,7 @@ const trees = [
   "./treeDrawings/tree4.jpg",
 ];
 
-const cubes = [
+const houses = [
   "./houseDrawings/house1.jpg",
   "./houseDrawings/house2.jpg",
   "./houseDrawings/house3.jpg",
