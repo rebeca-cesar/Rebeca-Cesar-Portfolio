@@ -3,10 +3,10 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+  "./DSGN313_A01_Analysis",
+  "./DSGN313_A01_Analysis1",
+  "./DSGN313_A01_Analysis2",
+  "./DSGN313_A01_Analysis3",
 ];
 
 const trees = [
@@ -32,9 +32,9 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Assignment 01
         <div class="three-model">
-          <div id="model1"></div>
+          <img src="./DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" id="model1" alt="Assignment 01 Image" />
         </div>
         <div id="images-description">
           <div id="images">
@@ -44,7 +44,7 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">Cadavre Exquis: The Fragile Beauty of Mutual Dependence. This project visually explores the human need for community despite isolation culture through five facets: context, fragility, society, humanity, and beauty.</h4>
         </div>
       </div>
 
@@ -102,6 +102,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
+// createThreeScene("#model1", "/3DModels/project1/cube.obj");
 // createThreeScene("#model2", "/3DModels/project2/tree.obj");
 // createThreeScene("#model3", "/3DModels/project3/cottage.obj");
