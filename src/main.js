@@ -32,7 +32,7 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Assignment 01
+      Assignment 01: Cadavre Exquis
         <div class="three-model">
           <img src="./DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" id="model1" alt="Assignment 01 Image" />
         </div>
