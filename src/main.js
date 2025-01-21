@@ -3,10 +3,10 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./analysis/DSGN313_A01_Analysis",
-  "./analysis/DSGN313_A01_Analysis2",
-  "./analysis/DSGN313_A01_Analysis3",
-  "./analysis/DSGN313_A01_Analysis4",
+  "./analysis/DSGN313_A01_Analysis.png",
+  "./analysis/DSGN313_A01_Analysis2.png",
+  "./analysis/DSGN313_A01_Analysis3.png",
+  "./analysis/DSGN313_A01_Analysis4.png",
 ];
 
 const trees = [
