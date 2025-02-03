@@ -10,10 +10,10 @@ const cubes = [
 ];
 
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./charts/comparison_chart_pavilion.png",
+  "./charts/comparison_chart_torus.png",
+  "./charts/comparison_chart_luma.png",
+  "./charts/models_luma.png",
 ];
 
 const houses = [
