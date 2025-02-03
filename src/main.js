@@ -34,15 +34,23 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       A01: Cadavre Exquis
         <div class="three-model">
-          <img src="./DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" id="model1" alt="Assignment 01 Image" />
+          <a href="./public/DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" target="new">
+              <img src="./public/DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" alt="random image" width="400" height="300" id="model1">
+            </a>
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+          <a href="./analysis/DSGN313_A01_Analysis.png" target="new">
+              <img src="../analysis/DSGN313_A01_Analysis.png" alt="random image" width="400" height="300">
+            </a>
+          <a href="./analysis/DSGN313_A01_Analysis2.png" target="new">
+              <img src="./analysis/DSGN313_A01_Analysis2.png" alt="random image" width="400" height="300">
+            </a>
+          <a href="./analysis/DSGN313_A01_Analysis3.png" target="new">
+              <img src="./analysis/DSGN313_A01_Analysis3.png" alt="random image" width="400" height="300">
+            </a>
+          <a href="./analysis/DSGN313_A01_Analysis4.png" target="new">
+             <img src="./analysis/DSGN313_A01_Analysis4.png" alt="random image" width="400" height="300">
           </div>
           <h4 id="description">Cadavre Exquis: The Fragile Beauty of Mutual Dependence. This project visually explores the human need for community despite isolation culture through five facets: context, fragility, society, humanity, and beauty.</h4>
         </div>
