@@ -34,14 +34,14 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       A01: Cadavre Exquis
         <div class="three-model">
-          <a href="./public/DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" target="new">
-              <img src="./public/DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" alt="random image" width="400" height="300" id="model1">
+          <a href="./analysis/DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" target="new">
+              <img src="./analysis/DSGN313_Rebeca_Cesar_A01-ExquisiteCorpse-comp.png" alt="cadavre exquis" width="400" height="300" id="model1">
             </a>
         </div>
         <div id="images-description">
           <div id="images">
           <a href="./analysis/DSGN313_A01_Analysis.png" target="new">
-              <img src="../analysis/DSGN313_A01_Analysis.png" alt="random image" width="400" height="300">
+              <img src="./analysis/DSGN313_A01_Analysis.png" alt="random image" width="400" height="300">
             </a>
           <a href="./analysis/DSGN313_A01_Analysis2.png" target="new">
               <img src="./analysis/DSGN313_A01_Analysis2.png" alt="random image" width="400" height="300">
