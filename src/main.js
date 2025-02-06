@@ -63,14 +63,19 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+          <a href="./charts/comparison_chart_pavilion.png" target="new">
+              <img src="./charts/comparison_chart_pavilion.png" alt="random image" width="400" height="300">
+            </a>
+          <a href="./charts/comparison_chart_torus.png" target="new">
+              <img src="./charts/comparison_chart_torus.png" alt="random image" width="400" height="300">
+            </a>
+          <a href="./charts/comparison_chart_luma.png" target="new">
+              <img src="./charts/comparison_chart_luma.png" alt="random image" width="400" height="300">
+            </a>
+          <a href="./charts/models_luma.png" target="new">
+             <img src="./charts/models_luma.png" alt="random image" width="400" height="300">
           </div>
-          <h4 id="description">In this exploration, I learned the difference between different export files, modelling formats and conversion commands, enhancing interoperability between Blender and Rhino.</h4> 
+          <h4 id="description">Interoperability: In this exploration, I learned the difference between different export files, modelling formats and conversion commands, enhancing my skills in working cooperatively accross different programs.</h4>
         </div>
       </div>
 
